@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemCard matches snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "backgroundColor": "#f9fafb",
+        "borderRadius": 12,
+        "justifyContent": "center",
+        "padding": 12,
+      },
+      undefined,
+    ]
+  }
+  testID="item-card-root"
+>
+  <Image
+    contentFit="cover"
+    source="https://example.com/image.jpg"
+    style={
+      {
+        "borderRadius": 8,
+        "height": 100,
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+    testID="item-card-image"
+  />
+  <Text
+    style={
+      {
+        "fontSize": 16,
+        "fontWeight": "600",
+      }
+    }
+    testID="item-card-title"
+  >
+    Test Item
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#6b7280",
+        "fontSize": 13,
+      }
+    }
+    testID="item-card-category"
+  >
+    Test Category
+  </Text>
+</View>
+`;
